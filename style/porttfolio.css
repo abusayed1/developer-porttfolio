@@ -15,7 +15,12 @@
     border:0;
     margin-top: 10px;
 }
-
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png') , url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position:bottom right , left;
+}
 /* header and navigation style */
 .nav-title {
     font-style: normal;
@@ -43,6 +48,10 @@ nav ul li {
     display: flex;
     margin: 0px 226px;
     align-items: center;
+}
+.pic{
+    width: 584px;
+    height: 676px;
 }
 .banner-introduction{
     font-weight: 600;
