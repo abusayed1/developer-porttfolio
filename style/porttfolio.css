@@ -13,6 +13,7 @@
     background: #FD6E0A;
     border-radius: 5px;
     border:0;
+    margin-top: 10px;
 }
 
 /* header and navigation style */
@@ -36,4 +37,20 @@ nav ul {
 nav ul li {
     list-style: none;
     margin-left: 35px;
+}
+/*banner style*/
+.banner{
+    display: flex;
+    margin: 0px 226px;
+    align-items: center;
+}
+.banner-introduction{
+    font-weight: 600;
+    font-size: 45px;
+    margin: 20px;
+}
+.banner-name{
+    font-weight: 700;
+    font-size: 75px;
+    margin: 20px;
 }
