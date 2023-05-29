@@ -108,3 +108,47 @@ main {
     width: 782px;
     height: 60px;
 }
+
+/* second section */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info-1 {
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+
+.about-description-1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    text-align: center;
+}
+
+/* what i do section */
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+    padding-bottom: 30px;
+}
+.section-description{
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    padding-bottom: 50px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    background: #aba8a8;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
